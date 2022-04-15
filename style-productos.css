@@ -1,5 +1,5 @@
 header{
-    background-color: #BBBBBB;
+    background-color: #d7d7d7;
     padding: 20px 0;
 }
 
@@ -31,6 +31,11 @@ nav a{
 nav a:hover{
     color:#c78c19;
     text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
 }
 
 .productos{

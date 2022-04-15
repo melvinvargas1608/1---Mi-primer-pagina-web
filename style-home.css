@@ -1,0 +1,119 @@
+header{
+    background-color: #d7d7d7;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#c78c19;
+    text-decoration: underline;
+}
+
+.banner{
+    width: 100%;
+    padding-top: 5px;
+    position: relative;
+}
+
+.parrafo_principal{
+    background: #d7d7d7;
+    padding: 20px;
+}
+
+.titulo-centrado{
+    text-align: center;
+    margin: 20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color: rgb(10, 74, 235);
+}
+
+.mision{
+    font-size: 20 px;
+}
+
+.diferenciales{
+    background: #ffffff;
+    padding: 30px;
+}
+
+.valor_agregado{
+    display:inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.productos{
+    width: 940px;
+    margin: auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.productos h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.valor-unico{
+    width: 150px;
+    height: 150px;
+}
+
+footer{
+    text-align: center;
+    background: url(./imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
