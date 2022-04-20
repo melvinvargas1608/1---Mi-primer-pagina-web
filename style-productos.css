@@ -1,6 +1,5 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: 1em;
 }
 
 header{
@@ -98,4 +97,14 @@ footer{
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px;
+}
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
 }
